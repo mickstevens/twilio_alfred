@@ -8,7 +8,7 @@ Installation is easy:
 
 1. [Download this repository](https://github.com/phalt/twilio_alfred/archive/master.zip) and open the zip folder.
 
-2. Double-click or open the twilio.alfredWorflow file with Alfred.
+2. Double-click or open the twilio.alfredWorkflow file with Alfred.
 
 3. Et viola! It should now be installed.
 
