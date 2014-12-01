@@ -18,55 +18,100 @@ Open up Alfred and use the following keywords:
 
 ```twiml {query}``` to search Twilio's [TwiML](https://www.twilio.com/docs/api/twiml) documentation.
 
-The {query} value must be the name of a TwiML tag:
+The {query} value must be the name of a TwiML Verb:
 
 ```
-say
-play
-record
-sms
-dial
-number
-sip
 client
 conference
-queue
+dial
 enqueue
-leave
 hangup
+leave
+message
+number
+pause
+play
+queue
+record
 redirect
 reject
-pause
-message
+say
+sip
+sms
+
 ```
 
 or
 
-```twilio {query}``` to search Twilio's standard REST API documentation.
+```rest {query}``` to search Twilio's REST API (https://www.twilio.com/docs/api/rest) documentation.
 
-The {query} value must be the name of a Twilio resource:
+The {query} value must be the name of a Twilio REST document resource:
 
 ```
 account
-subaccounts
-available-phone-numbers
-outgoing-caller-ids
-incoming-phone-numbers
 applications
-connect-apps
 authorized-connect-apps
+available-phone-numbers
 call
 call-feedback
+change-call-state
 conference
-queue
-short-codes
+connect-apps
+credential-list
+domain
+incoming-phone-numbers
+ip-access-control-list
+making-calls
+making-calls-sip
+member
 message
 media
-recording
-transcription
 notification
+outgoing-caller-ids
+participant
+queue
+recording
+sending-messages
+short-codes
+subaccounts
+transcription
+usage-records
+usage-triggers
 ```
 
 Note that some list resoures are plural, and most individual resources are singular.
+
+or
+
+```client {query}``` to search Twilio's Twilio Client (https://www.twilio.com/docs/client) documentation.
+
+The {query} value must be the name of a Twilio Client document resource:
+
+```
+android
+capability-tokens
+errors
+ios
+twilio-js
+```
+
+or
+
+```rrk {query}``` to search Twilio.org's Rapid Response Kit GitHub (https://github.com/Twilio-org/rapid-response-kit/) repository.
+
+The {query} can be any value, but for best results use Twilio Rapid Response Kit Tool names (see below) or other Twilio keywords (see above).
+
+```
+autorespond
+broadcast
+conference
+forward
+noticeboard
+ringdown
+simplehelp
+survey
+town_hall
+volunteer
+```
 
 Have fun!
